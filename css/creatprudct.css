@@ -1,0 +1,18 @@
+
+.creat-prudct-page input,
+.creat-prudct-page select{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #999;
+    margin: 10px 0;
+    display: block;
+    border-radius: 8px ;
+    font-size: 18px ;
+}
+.creat-prudct-page input[type="submit"]{
+    background-color: aqua;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+}

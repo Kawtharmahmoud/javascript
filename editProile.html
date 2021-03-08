@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewpart" content="width=device-width, inital-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap" rel="stylesheet"/> 
+    
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet"/> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+   
+    <title>
+        Shopping Cart | Creat Prudoct Page
+    </title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/creatprudct.css">
+    
+    </head>
+    
+  
+    <body>
+       
+<header>
+   <div class="container">
+    <div class="header-content">
+        <a href="index.html" class="brand">Shopping cart</a>
+        <nav>
+            <ul id="links">
+                <li> <a href="login.html" > Sign in</a></li>
+            <li> <a href="register.html" > Sign up</a></li>
+            </ul>
+            <ul id="user_info">
+                <li id="en-lang">En</li>
+                <li id="ar-lang">Ar</li>
+                <li><a href="profile.html" id="user"></a></li>
+                <li><a href="favorite.html" >Favorites</a></li>
+                <li><a href="myPrudcts.html" >My Products</a></li>
+                <li class="shoppingcart">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="badge"></span>
+                    <div class="carts-products">
+                       <div></div>
+                        <a href="cardproduct.html"> View all product</a>
+    
+                    </div>
+                </li>
+    
+              <li><a href="#" id="logout">Logout</a></li>
+            </ul>
+        </nav>
+    </div>
+   </div>
+</header>
+<section class="edit-profile-page">
+  
+<div class="container">
+    <form id="edit-profile-form">
+       <input id="changename" type="text"/>
+       <input id="changeemail" type="text"/>
+       <input id="submit" value="Edit Profile" />
+    </form>
+</div>
+<a href="creatPrudcts.html" class="creat-prudct-icon"> <i class="fa fa-plus"></i></a>
+
+</section>
+ 
+<script src="js/user.js"></script> 
+<script src="js/data.js"></script> 
+<script src="js/langDir.js"></script>
+<script src="js/CartMenu.js"></script> 
+<script src="js/editProfile.js"></script> 
+
+
+
+    </body>
+
+</html>
